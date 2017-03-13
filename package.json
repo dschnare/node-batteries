@@ -1,7 +1,7 @@
 {
   "name": "node-batteries",
   "version": "1.0.0",
-  "description": "Common modules and snippets.",
+  "description": "Common modules and snippets",
   "author": "Darren Schnare <schnare.d@gmail.com>",
   "license": "MIT",
   "bugs": {
