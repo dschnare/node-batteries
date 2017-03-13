@@ -1,0 +1,32 @@
+{
+  "name": "node-batteries",
+  "version": "1.0.0",
+  "description": "Common modules and snippets.",
+  "author": "Darren Schnare <schnare.d@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dschnare/node-batteries/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dschnare/node-batteries"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha lib/*.test.js lib/**/*.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "mocha": "^3.2.0"
+  }
+}
